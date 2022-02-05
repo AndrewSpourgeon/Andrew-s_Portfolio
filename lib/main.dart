@@ -13,8 +13,6 @@ void main() {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(statusBarColor: Colors.white));
     return MaterialApp(
       title: "Andrew's Portfolio",
       builder: (context, widget) => ResponsiveWrapper.builder(
