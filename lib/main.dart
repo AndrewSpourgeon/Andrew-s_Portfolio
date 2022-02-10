@@ -6,7 +6,8 @@ import 'package:responsive_framework/responsive_framework.dart';
 //import 'skillclass.dart';
 //import 'skillslist.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(Home());
 }
 
