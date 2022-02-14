@@ -1618,8 +1618,7 @@ Widget _thirdRow() {
         'assets/hello.json',
         height: 250,
       ),
-      FittedBox(
-        fit: BoxFit.contain,
+      Expanded(
         child: Text(
           'Hi there lads👋!As a flutter developer I have done many projects in the stream of android and web without even taking a single certification course.Let\'s have a quick glance of my technical journey , achievemts , skills that I embrace.',
           maxLines: 20,
