@@ -3,15 +3,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:lottie/lottie.dart';
 import 'package:card_swiper/card_swiper.dart';
-import 'package:portfolio/contactclass.dart';
+
 import 'package:portfolio/contactlist.dart';
 import 'package:portfolio/projects.dart';
 import 'package:hovering/hovering.dart';
 import 'package:portfolio/skillslist.dart';
 import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
-import 'package:responsive_framework/responsive_framework.dart';
-import './cerclass.dart';
+
 import './cerlist.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:math';
@@ -1678,13 +1677,15 @@ Widget _skills() {
     padding: EdgeInsets.all(25),
     shrinkWrap: true,
     // ignore: non_constant_identifier_names
-    children: Skilllist.map<Widget>((Skill) => SkillItem(
-          Skill.title,
-          Skill.c1,
-          Skill.c2,
-          Skill.pic,
-          Skill.star,
-        )).toList(),
+    children: skilllist
+        .map<Widget>((skill) => SkillItem(
+              skill.title,
+              skill.c1,
+              skill.c2,
+              skill.pic,
+              skill.star,
+            ))
+        .toList(),
     gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
       maxCrossAxisExtent: 100,
       childAspectRatio: 0.9,
@@ -2189,13 +2190,15 @@ Widget _contactDetails() {
     padding: EdgeInsets.all(25),
     shrinkWrap: true,
     // ignore: non_constant_identifier_names
-    children: Contacts.map<Widget>((Contact) => ContactItem(
-          Contact.image,
-          Contact.title,
-          Contact.color,
-          Contact.svgimage,
-          Contact.url,
-        )).toList(),
+    children: contacts
+        .map<Widget>((contact) => ContactItem(
+              contact.image,
+              contact.title,
+              contact.color,
+              contact.svgimage,
+              contact.url,
+            ))
+        .toList(),
     gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
       maxCrossAxisExtent: 200,
       childAspectRatio: 0.7,

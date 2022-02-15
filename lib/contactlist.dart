@@ -1,9 +1,8 @@
 import 'package:portfolio/contactclass.dart';
 
-import './cerclass.dart';
 import 'package:flutter/material.dart';
 
-final List Contacts = [
+final List contacts = [
   Contact(
     image: 'assets/techgoogle.jpg',
     title: 'Google Play Store',

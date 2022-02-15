@@ -1,7 +1,7 @@
 import './skillclass.dart';
 import 'package:flutter/material.dart';
 
-final Skilllist = [
+final skilllist = [
   Skill(
     id: '1',
     title: 'Flutter',
