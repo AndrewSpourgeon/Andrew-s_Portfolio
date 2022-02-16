@@ -55,79 +55,79 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-     - assets/logo.png
-     - assets/next.png
-     - assets/epam.png
-     - assets/eflutter.png
-     - assets/ejava.png
-     - assets/emobile.png
-     - assets/ephoto.png
-     - assets/evideo.png
-     - assets/badge.png
-     - assets/gdev.png
-     - assets/lendi.png
-     - assets/lend.png
-     - assets/whats.png
-     - assets/goog.png
-     - assets/gdevweb.png
-     - assets/googlecer.png
-     - assets/star.svg
-     - assets/carbon.png
-     - assets/fluttername.png
-     - assets/stack-overflow.svg
-     - assets/web-design.png
-     - assets/ui.png
-     - assets/drew.jpg
-     - assets/fchall.jpg
-     - assets/one.jpg
-     - assets/whitedrew.jpg
-     - assets/certificate.jpg
-     - assets/javacode.jpg
-     - assets/pythoncer.jpg
-     - assets/techgoogle.jpg
-     - assets/techgithub.jpg
-     - assets/techplaystore.jpg
-     - assets/quote.jpg
-     - assets/call.svg
-     - assets/discord.svg
-     - assets/facebook.svg
-     - assets/github.svg
-     - assets/gmail.svg
-     - assets/playgoogle.svg
-     - assets/instagram.svg
-     - assets/linkedin.svg
-     - assets/youtube.svg
-     - assets/playstore.png
-     - assets/twitter.svg
-     - assets/whatsapp.svg
-     - assets/flutter.svg
-     - assets/java.svg
-     - assets/dart.svg
-     - assets/python.svg
-     - assets/git.svg
-     - assets/gitlab.svg
-     - assets/firebase.svg
-     - assets/astudio.svg
-     - assets/android.svg
-     - assets/chart.jpg
-     - assets/hello.json
-     - assets/project.json
-     - assets/programmer.json
-     - assets/promote.json
-     - assets/google.svg
-     - assets/aka.jpg
-     - assets/bmi.jpg
-     - assets/hub.jpg
-     - assets/cred.jpg
-     - assets/whatsUI.png
-     - assets/unleash.jpg
-     - assets/weather.png
-     - assets/tdr.jpg
-     - assets/todo.jpg
-     - assets/news.jpg
-     - assets/projectBackground.jpg
-     - assets/website.png
+  #assets:
+    #  - assets/logo.png
+    #  - assets/next.png
+    #  - assets/epam.png
+    #  - assets/eflutter.png
+    #  - assets/ejava.png
+    #  - assets/emobile.png
+    #  - assets/ephoto.png
+    #  - assets/evideo.png
+    #  - assets/badge.png
+    #  - assets/gdev.png
+    #  - assets/lendi.png
+    #  - assets/lend.png
+    #  - assets/whats.png
+    #  - assets/goog.png
+    #  - assets/gdevweb.png
+    #  - assets/googlecer.png
+    #  - assets/star.svg
+    #  - assets/carbon.png
+    #  - assets/fluttername.png
+    #  - assets/stack-overflow.svg
+    #  - assets/web-design.png
+    #  - assets/ui.png
+    #  - assets/drew.jpg
+    #  - assets/fchall.jpg
+    #  - assets/one.jpg
+    #  - assets/whitedrew.jpg
+    #  - assets/certificate.jpg
+    #  - assets/javacode.jpg
+    #  - assets/pythoncer.jpg
+    #  - assets/techgoogle.jpg
+    #  - assets/techgithub.jpg
+    #  - assets/techplaystore.jpg
+    #  - assets/quote.jpg
+    #  - assets/call.svg
+    #  - assets/discord.svg
+    #  - assets/facebook.svg
+    #  - assets/github.svg
+    #  - assets/gmail.svg
+    #  - assets/playgoogle.svg
+    #  - assets/instagram.svg
+    #  - assets/linkedin.svg
+    #  - assets/youtube.svg
+    #  - assets/playstore.png
+    #  - assets/twitter.svg
+    #  - assets/whatsapp.svg
+    #  - assets/flutter.svg
+    #  - assets/java.svg
+    #  - assets/dart.svg
+    #  - assets/python.svg
+    #  - assets/git.svg
+    #  - assets/gitlab.svg
+    #  - assets/firebase.svg
+    #  - assets/astudio.svg
+    #  - assets/android.svg
+    #  - assets/chart.jpg
+    #  - assets/hello.json
+    #  - assets/project.json
+    #  - assets/programmer.json
+    #  - assets/promote.json
+    #  - assets/google.svg
+    #  - assets/aka.jpg
+    #  - assets/bmi.jpg
+    #  - assets/hub.jpg
+    #  - assets/cred.jpg
+    #  - assets/whatsUI.png
+    #  - assets/unleash.jpg
+    #  - assets/weather.png
+    #  - assets/tdr.jpg
+    #  - assets/todo.jpg
+    #  - assets/news.jpg
+    #  - assets/projectBackground.jpg
+    #  - assets/website.png
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

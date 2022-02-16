@@ -58,8 +58,8 @@ class _PortfolioState extends State<Portfolio> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ClipOval(
-            child: Image.asset(
-              "assets/drew.jpg",
+            child: Image.network(
+              "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/drew.jpg?alt=media&token=b3cc4e4a-e171-4114-aa59-261eb3c5b3cc",
               height: 90,
               width: 90,
               fit: BoxFit.cover,
@@ -125,8 +125,8 @@ class _PortfolioState extends State<Portfolio> {
                                 onTap: () {
                                   launch('http://andrewspourgeon.me/');
                                 },
-                                child: Image.asset(
-                                  'assets/logo.png',
+                                child: Image.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/logo.png?alt=media&token=fabd42b4-ace2-4ea5-a6ee-75bdc69cac68",
                                   height: 25,
                                 ),
                               )
@@ -143,8 +143,8 @@ class _PortfolioState extends State<Portfolio> {
                                 onTap: () {
                                   launch('https://github.com/AndrewSpourgeon');
                                 },
-                                child: SvgPicture.asset(
-                                  "assets/github.svg",
+                                child: SvgPicture.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/github.svg?alt=media&token=26dfad02-03a3-4bd6-ad75-0363adc01bea",
                                   color: Colors.black,
                                   height: 17,
                                 ),
@@ -157,8 +157,8 @@ class _PortfolioState extends State<Portfolio> {
                                   launch(
                                       'https://play.google.com/store/apps/dev?id=7666823867215398669');
                                 },
-                                child: Image.asset(
-                                  "assets/playstore.png",
+                                child: Image.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/playstore.png?alt=media&token=36cea1a0-f137-48c8-adf2-613fc0169245",
                                   height: 17,
                                 ),
                               ),
@@ -170,8 +170,8 @@ class _PortfolioState extends State<Portfolio> {
                                   launch(
                                       'https://www.linkedin.com/in/andrew-spourgeon-829458205/');
                                 },
-                                child: SvgPicture.asset(
-                                  "assets/linkedin.svg",
+                                child: SvgPicture.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/linkedin.svg?alt=media&token=9cdbf338-2116-440d-8b04-277a92f8ea85",
                                   height: 17,
                                 ),
                               ),
@@ -182,8 +182,8 @@ class _PortfolioState extends State<Portfolio> {
                                 onTap: () {
                                   launch('https://twitter.com/aspourgeon');
                                 },
-                                child: SvgPicture.asset(
-                                  "assets/twitter.svg",
+                                child: SvgPicture.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/twitter.svg?alt=media&token=ace6d847-0bff-4f55-852c-935ba114f909",
                                   height: 17,
                                 ),
                               ),
@@ -202,8 +202,8 @@ class _PortfolioState extends State<Portfolio> {
                       SizedBox(
                         height: 5,
                       ),
-                      SvgPicture.asset(
-                        'assets/star.svg',
+                      SvgPicture.network(
+                        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1',
                         height: 30,
                       ),
                       SizedBox(
@@ -235,7 +235,8 @@ class _PortfolioState extends State<Portfolio> {
                       SizedBox(
                         height: 400,
                         width: 500,
-                        child: Image.asset('assets/carbon.png'),
+                        child: Image.network(
+                            "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/carbon.png?alt=media&token=30c7e855-684f-4193-9f70-e09c05572e59"),
                       ),
                       SizedBox(
                         height: 30,
@@ -299,8 +300,8 @@ class _PortfolioState extends State<Portfolio> {
                             Column(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                LottieBuilder.asset(
-                                  'assets/promote.json',
+                                LottieBuilder.network(
+                                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/promote.json?alt=media&token=83464705-4c85-4381-89a7-bc32ca725f1b',
                                   height: 250,
                                 ),
                               ],
@@ -361,7 +362,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/twitter.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/twitter.svg?alt=media&token=ace6d847-0bff-4f55-852c-935ba114f909',
                 color: Colors.lightBlue,
                 text: 'Twitter',
                 url: 'https://twitter.com/aspourgeon',
@@ -370,7 +372,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/facebook.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/facebook.svg?alt=media&token=665b3281-de40-43fc-8873-401345c1e2a5',
                 color: Colors.blue.shade800,
                 text: 'Facebook',
                 url: 'https://www.facebook.com/profile.php?id=100008269328597',
@@ -379,7 +382,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/instagram.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/instagram.svg?alt=media&token=b62cc042-5b35-4dd7-8216-697a3657e5a5',
                 color: Colors.deepOrange,
                 text: 'Instagram',
                 url: 'https://www.instagram.com/andrew_spourgeon/',
@@ -388,7 +392,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/youtube.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/youtube.svg?alt=media&token=7b9ffef6-9076-47a5-8368-6ad829d226dc',
                 color: Colors.red,
                 text: 'YouTube',
                 url: 'https://www.youtube.com/channel/UClu8x1EUxzC4O6mPeD7bQ0g',
@@ -405,7 +410,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/gmail.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/gmail.svg?alt=media&token=5d0416c3-1adf-485a-b229-2395ebdd83ff',
                 color: Colors.redAccent,
                 text: 'Gmail',
                 url: 'mailto:andrewspourgeon@gmail.com',
@@ -414,7 +420,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/whatsapp.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/whatsapp.svg?alt=media&token=d65db9be-0511-406e-8402-7440f81b0563',
                 color: Colors.green.shade600,
                 text: 'Whatsapp',
                 url: 'https://wa.me/+916303961320',
@@ -423,7 +430,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/linkedin.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/linkedin.svg?alt=media&token=9cdbf338-2116-440d-8b04-277a92f8ea85',
                 color: Colors.blue.shade700,
                 text: 'Linkedin',
                 url: 'https://www.linkedin.com/in/andrew-spourgeon-829458205/',
@@ -432,7 +440,8 @@ class _PortfolioState extends State<Portfolio> {
                 width: 10,
               ),
               new PopupIcon(
-                icon: 'assets/stack-overflow.svg',
+                icon:
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/stack-overflow.svg?alt=media&token=80146aff-e53d-4707-ab71-eb3ed28a099c',
                 color: Colors.orangeAccent.shade400,
                 text: 'StackOverflow',
                 url:
@@ -457,8 +466,8 @@ class _PortfolioState extends State<Portfolio> {
         color: Colors.white,
         borderRadius: BorderRadius.circular(10),
         image: DecorationImage(
-          image: AssetImage(
-            'assets/quote.jpg',
+          image: NetworkImage(
+            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/quote.jpg?alt=media&token=152d0d93-31e7-4f02-99ed-bfd3028df281',
           ),
           fit: BoxFit.cover,
         ),
@@ -494,8 +503,8 @@ class _PortfolioState extends State<Portfolio> {
                     SizedBox(
                       width: 5,
                     ),
-                    Image.asset(
-                      'assets/logo.png',
+                    Image.network(
+                      'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/logo.png?alt=media&token=fabd42b4-ace2-4ea5-a6ee-75bdc69cac68',
                       height: 25,
                     ),
                     Text('👇'),
@@ -515,8 +524,8 @@ class _PortfolioState extends State<Portfolio> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ClipOval(
-            child: Image.asset(
-              "assets/whitedrew.jpg",
+            child: Image.network(
+              "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/whitedrew.jpg?alt=media&token=afa5d9a9-4bd7-4e00-91d2-e6de38edaeaf",
               height: 90,
               width: 90,
               fit: BoxFit.fitWidth,
@@ -590,8 +599,8 @@ class _PortfolioState extends State<Portfolio> {
                       ),
                     ),
                     children: [
-                      Image.asset(
-                        'assets/chart.jpg',
+                      Image.network(
+                        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/chart.jpg?alt=media&token=4ff2ab6f-428c-43e6-ac27-678a8b0772e8',
                         height: 250,
                         width: 400,
                         fit: BoxFit.cover,
@@ -612,8 +621,8 @@ class _PortfolioState extends State<Portfolio> {
                           SizedBox(
                             width: 3,
                           ),
-                          Image.asset(
-                            'assets/lend.png',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/lend.png?alt=media&token=2126fce8-1bc6-4f39-bfa7-3222ec3e2002',
                             height: 90,
                           ),
                         ],
@@ -634,8 +643,8 @@ class _PortfolioState extends State<Portfolio> {
                             SizedBox(
                               width: 5,
                             ),
-                            Image.asset(
-                              'assets/lendi.png',
+                            Image.network(
+                              'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/lendi.png?alt=media&token=841f8566-80f8-4ddc-a70c-2c490ef170e1',
                               height: 25,
                             ),
                             SizedBox(
@@ -687,8 +696,8 @@ class _PortfolioState extends State<Portfolio> {
                       ),
                     ),
                     children: [
-                      Image.asset(
-                        'assets/fchall.jpg',
+                      Image.network(
+                        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/fchall.jpg?alt=media&token=9c8e60f6-f027-441a-848b-b62711a016d9',
                         height: 250,
                         width: 400,
                         fit: BoxFit.cover,
@@ -709,8 +718,8 @@ class _PortfolioState extends State<Portfolio> {
                           SizedBox(
                             width: 3,
                           ),
-                          Image.asset(
-                            'assets/whats.png',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/whats.png?alt=media&token=58f75a8e-739f-4137-934a-1f691d0bcf92',
                             height: 70,
                           ),
                         ],
@@ -728,8 +737,8 @@ class _PortfolioState extends State<Portfolio> {
                           SizedBox(
                             width: 5,
                           ),
-                          Image.asset(
-                            'assets/fluttername.png',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/fluttername.png?alt=media&token=74d6201b-ac1d-4fc3-a2f3-a81d630ebf33',
                             height: 22,
                           ),
                         ],
@@ -752,8 +761,8 @@ class _PortfolioState extends State<Portfolio> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                SvgPicture.asset(
-                                  'assets/github.svg',
+                                SvgPicture.network(
+                                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/github.svg?alt=media&token=26dfad02-03a3-4bd6-ad75-0363adc01bea',
                                   height: 15,
                                   color: Colors.white,
                                 ),
@@ -782,8 +791,8 @@ class _PortfolioState extends State<Portfolio> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
-                                Image.asset(
-                                  'assets/gdevweb.png',
+                                Image.network(
+                                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/gdevweb.png?alt=media&token=05322b90-f676-47ee-a7ac-8d46ecb3f964',
                                   height: 15,
                                 ),
                                 SizedBox(
@@ -840,8 +849,8 @@ class _PortfolioState extends State<Portfolio> {
                       ),
                     ),
                     children: [
-                      Image.asset(
-                        'assets/badge.png',
+                      Image.network(
+                        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/badge.png?alt=media&token=07b3e897-3d4b-40e5-81df-b979f414b39d',
                         height: 180,
                         width: 180,
                       ),
@@ -858,8 +867,8 @@ class _PortfolioState extends State<Portfolio> {
                           SizedBox(
                             width: 3,
                           ),
-                          Image.asset(
-                            'assets/goog.png',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/goog.png?alt=media&token=a713dffc-e0e3-48b4-ac0e-034157117952',
                             height: 70,
                           ),
                         ],
@@ -877,8 +886,8 @@ class _PortfolioState extends State<Portfolio> {
                             SizedBox(
                               width: 5,
                             ),
-                            Image.asset(
-                              'assets/googlecer.png',
+                            Image.network(
+                              'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/googlecer.png?alt=media&token=65508657-d5f8-42c6-82f4-b13e180fd2d3',
                               height: 25,
                             ),
                           ]),
@@ -895,7 +904,9 @@ class _PortfolioState extends State<Portfolio> {
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/one.jpg'), fit: BoxFit.cover),
+                image: NetworkImage(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/one.jpg?alt=media&token=7d18f45f-9078-4130-bb06-88464b6b9c90'),
+                fit: BoxFit.cover),
           ),
           height: 150,
           width: double.infinity,
@@ -922,8 +933,8 @@ class _PortfolioState extends State<Portfolio> {
                     ),
                   ),
                   children: [
-                    Image.asset(
-                      'assets/web-design.png',
+                    Image.network(
+                      'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/web-design.png?alt=media&token=25c5f079-406a-4bc1-b660-fb4db3a21d42',
                       height: 100,
                     ),
                     Container(
@@ -961,8 +972,8 @@ class _PortfolioState extends State<Portfolio> {
           height: 20,
         ),
         _currentWork(),
-        Image.asset(
-          'assets/epam.png',
+        Image.network(
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/epam.png?alt=media&token=672f1c58-5cce-4137-98a4-072db27130ab',
           height: 100,
         ),
       ],
@@ -973,15 +984,15 @@ class _PortfolioState extends State<Portfolio> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
       ],
@@ -992,29 +1003,29 @@ class _PortfolioState extends State<Portfolio> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
       ],
@@ -1025,36 +1036,36 @@ class _PortfolioState extends State<Portfolio> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
       ],
@@ -1065,22 +1076,22 @@ class _PortfolioState extends State<Portfolio> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
         SizedBox(
           width: 5,
         ),
-        SvgPicture.asset(
-          'assets/star.svg',
+        SvgPicture.network(
+          "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/star.svg?alt=media&token=4e8fa782-7c67-4fbf-a5f0-7bd1429075e1",
           height: 30,
         ),
       ],
@@ -1102,8 +1113,8 @@ class _PortfolioState extends State<Portfolio> {
         SizedBox(
           width: 3,
         ),
-        Image.asset(
-          'assets/next.png',
+        Image.network(
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/next.png?alt=media&token=0ec1bd87-9d42-4ff8-803b-caf636330025',
           height: 50,
         )
       ],
@@ -1146,7 +1157,8 @@ class _PortfolioState extends State<Portfolio> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         image: DecorationImage(
-                            image: AssetImage('assets/projectBackground.jpg'),
+                            image: NetworkImage(
+                                'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/projectBackground.jpg?alt=media&token=ae798c56-de95-45f5-8e80-44d3a2cfa021'),
                             fit: BoxFit.fill)),
                     height: 360,
                     width: 360,
@@ -1224,8 +1236,8 @@ class _PortfolioState extends State<Portfolio> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  SvgPicture.asset(
-                                    'assets/github.svg',
+                                  SvgPicture.network(
+                                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/github.svg?alt=media&token=26dfad02-03a3-4bd6-ad75-0363adc01bea',
                                     height: 15,
                                     color: Colors.white,
                                   ),
@@ -1257,8 +1269,8 @@ class _PortfolioState extends State<Portfolio> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  SvgPicture.asset(
-                                    'assets/playgoogle.svg',
+                                  SvgPicture.network(
+                                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/playgoogle.svg?alt=media&token=3712ccf2-c4dd-41af-862c-04650729829d',
                                     height: 15,
                                     //color: Colors.white,
                                   ),
@@ -1290,8 +1302,8 @@ class _PortfolioState extends State<Portfolio> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceEvenly,
                                 children: [
-                                  Image.asset(
-                                    'assets/website.png',
+                                  Image.network(
+                                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/website.png?alt=media&token=ebf243b3-d18a-46ee-9aaa-e3c047c2d831',
                                     height: 15,
                                   ),
                                   SizedBox(
@@ -1366,8 +1378,8 @@ class _PortfolioState extends State<Portfolio> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
-                          Image.asset(
-                            'assets/techgoogle.jpg',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/techgoogle.jpg?alt=media&token=81e1609d-1c59-40a8-bc70-9d5ae2a5e6be',
                             height: 150,
                             width: 150,
                             fit: BoxFit.contain,
@@ -1386,8 +1398,8 @@ class _PortfolioState extends State<Portfolio> {
                                   elevation: 20,
                                   shadowColor: Colors.grey.shade900),
                               onPressed: () {},
-                              child: Image.asset(
-                                'assets/playstore.png',
+                              child: Image.network(
+                                'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/playstore.png?alt=media&token=36cea1a0-f137-48c8-adf2-613fc0169245',
                                 height: 10,
                               ))
                         ],
@@ -1410,8 +1422,8 @@ class _PortfolioState extends State<Portfolio> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
-                          Image.asset(
-                            'assets/techgithub.jpg',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/techgithub.jpg?alt=media&token=dd163ce5-f24f-49ef-8e73-915f703e3b40',
                             height: 150,
                             width: 150,
                             fit: BoxFit.contain,
@@ -1430,8 +1442,8 @@ class _PortfolioState extends State<Portfolio> {
                                 elevation: 20,
                               ),
                               onPressed: () {},
-                              child: SvgPicture.asset(
-                                'assets/github.svg',
+                              child: SvgPicture.network(
+                                'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/github.svg?alt=media&token=26dfad02-03a3-4bd6-ad75-0363adc01bea',
                                 color: Colors.white,
                                 height: 10,
                               ))
@@ -1455,8 +1467,8 @@ class _PortfolioState extends State<Portfolio> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: <Widget>[
-                          Image.asset(
-                            'assets/techplaystore.jpg',
+                          Image.network(
+                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/techplaystore.jpg?alt=media&token=7ed38881-d7d8-462f-bc6d-b6120c4f925a',
                             height: 150,
                             width: 150,
                             fit: BoxFit.contain,
@@ -1475,8 +1487,8 @@ class _PortfolioState extends State<Portfolio> {
                                   elevation: 20,
                                   shadowColor: Colors.grey.shade900),
                               onPressed: () {},
-                              child: SvgPicture.asset(
-                                'assets/google.svg',
+                              child: SvgPicture.network(
+                                'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/google.svg?alt=media&token=6087c7ad-2808-468d-924a-3feea54b243d',
                                 height: 10,
                               ))
                         ],
@@ -1594,7 +1606,7 @@ class _PopupIconState extends State<PopupIcon> {
                       onTap: () {
                         launch(widget.url);
                       },
-                      child: SvgPicture.asset(
+                      child: SvgPicture.network(
                         widget.icon,
                       ),
                     ),
@@ -1613,8 +1625,8 @@ Widget _thirdRow() {
   return Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
-      LottieBuilder.asset(
-        'assets/hello.json',
+      LottieBuilder.network(
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/hello.json?alt=media&token=29cd6fbb-6947-4e31-a3e2-9791d400d5d6',
         height: 250,
       ),
       Expanded(
@@ -1738,7 +1750,7 @@ class SkillItem extends StatelessWidget {
               SizedBox(
                 height: 3,
               ),
-              SvgPicture.asset(
+              SvgPicture.network(
                 pic,
                 height: 40,
               ),
@@ -1782,7 +1794,7 @@ class SkillItem extends StatelessWidget {
               SizedBox(
                 height: 3,
               ),
-              SvgPicture.asset(
+              SvgPicture.network(
                 pic,
                 height: 40,
               ),
@@ -1811,8 +1823,8 @@ Widget aboutMe() {
               width: 250,
               padding: EdgeInsets.symmetric(horizontal: 0),
               child: ListTile(
-                leading: Image.asset(
-                  'assets/eflutter.png',
+                leading: Image.network(
+                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/eflutter.png?alt=media&token=4485b2bf-60bd-4a89-8adf-b306a672ec5e',
                   height: 45,
                 ),
                 title: Text(
@@ -1834,8 +1846,8 @@ Widget aboutMe() {
               width: 290,
               padding: EdgeInsets.symmetric(horizontal: 0),
               child: ListTile(
-                leading: Image.asset(
-                  'assets/eflutter.png',
+                leading: Image.network(
+                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/eflutter.png?alt=media&token=4485b2bf-60bd-4a89-8adf-b306a672ec5e',
                   height: 45,
                 ),
                 title: Text(
@@ -1864,8 +1876,8 @@ Widget aboutMe() {
                 minLeadingWidth: 7,
                 hoverColor: Colors.blue,
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/evideo.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/evideo.png?alt=media&token=801e8ad4-5d62-4f56-9e98-05b276e876d7',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -1892,8 +1904,8 @@ Widget aboutMe() {
               ),
               child: ListTile(
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/evideo.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/evideo.png?alt=media&token=801e8ad4-5d62-4f56-9e98-05b276e876d7',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -1923,8 +1935,8 @@ Widget aboutMe() {
               child: ListTile(
                 minLeadingWidth: 7,
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/emobile.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/emobile.png?alt=media&token=706e5651-d792-413e-a22f-c14974bd2cd0',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -1951,8 +1963,8 @@ Widget aboutMe() {
               ),
               child: ListTile(
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/emobile.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/emobile.png?alt=media&token=706e5651-d792-413e-a22f-c14974bd2cd0',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -1982,8 +1994,8 @@ Widget aboutMe() {
               child: ListTile(
                 minLeadingWidth: 7,
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/ephoto.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ephoto.png?alt=media&token=f264846f-b879-4ade-a0f7-a52c522052e0',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -2010,8 +2022,8 @@ Widget aboutMe() {
               ),
               child: ListTile(
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/ephoto.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ephoto.png?alt=media&token=f264846f-b879-4ade-a0f7-a52c522052e0',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -2041,8 +2053,8 @@ Widget aboutMe() {
               child: ListTile(
                 minLeadingWidth: 7,
                 leading: ClipOval(
-                  child: Image.asset(
-                    'assets/ejava.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ejava.png?alt=media&token=945ddb8d-e64e-4b23-81c4-a791ae641c40',
                     height: 45,
                     fit: BoxFit.fill,
                   ),
@@ -2068,8 +2080,8 @@ Widget aboutMe() {
               ),
               child: ListTile(
                 leading: ClipRect(
-                  child: Image.asset(
-                    'assets/ejava.png',
+                  child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ejava.png?alt=media&token=945ddb8d-e64e-4b23-81c4-a791ae641c40',
                     height: 45,
                     fit: BoxFit.fill,
                     scale: 75,
@@ -2153,7 +2165,7 @@ class ContactItem extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Image.asset(
+            Image.network(
               image,
               height: 150,
               width: 150,
@@ -2173,7 +2185,7 @@ class ContactItem extends StatelessWidget {
                 onPressed: () {
                   launch(url);
                 },
-                child: SvgPicture.asset(
+                child: SvgPicture.network(
                   svgimage,
                   height: 20,
                 ))
