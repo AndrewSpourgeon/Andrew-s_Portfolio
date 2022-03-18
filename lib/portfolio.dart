@@ -959,8 +959,7 @@ class _PortfolioState extends State<Portfolio> {
                       width: 90,
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                              image: NetworkImage(
-                                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ui.png?alt=media&token=cab8bba4-9ba6-4009-b0db-9edd38d20c05')),
+                              image: AssetImage('assets/ui.png')),
                           borderRadius: BorderRadius.circular(80)),
                     ),
                   ],
@@ -1180,7 +1179,7 @@ class _PortfolioState extends State<Portfolio> {
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(8),
                                   image: DecorationImage(
-                                      image: NetworkImage(data[index].image!),
+                                      image: AssetImage(data[index].image!),
                                       fit: BoxFit.cover),
                                 ),
                               ),
@@ -2160,7 +2159,7 @@ class ContactItem extends StatelessWidget {
             BoxShadow(
                 color: Colors.grey, offset: Offset(-1, -1), blurRadius: 15)
           ]),
-      height: 235,
+      height: 220,
       width: 150,
       child: Center(
         child: Column(
