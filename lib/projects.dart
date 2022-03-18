@@ -23,7 +23,7 @@ List<ProjectInfo> data = [
       description:
           "This is an android app made for fun which is made especially for my friends to have fun and tests how good I am predicting their likes and sensibilities",
       image:
-          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/aka.jpg?alt=media&token=b0004cf3-f736-4a66-8355-8c7e58c1d059',
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/aka.jpg?alt=media&token=0b143aba-8a2c-4a07-a513-7d35b39ff0c8',
       purl:
           'https://play.google.com/store/apps/details?id=com.andrewspourgeon.akaquiz',
       gurl: 'https://github.com/AndrewSpourgeon/Quiz-App-Flutter',
@@ -34,7 +34,7 @@ List<ProjectInfo> data = [
       description:
           "This app calculates your BMI according to the metrics provided by the user.",
       image:
-          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/bmi.jpg?alt=media&token=f55573aa-edc9-467f-af19-de0a5bd836f5',
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/bmi.jpg?alt=media&token=9c14d484-5e46-466b-9f1e-2e2672f923d4',
       purl:
           'https://play.google.com/store/apps/details?id=com.andrewspourgeon.bmicalculator',
       gurl: 'https://github.com/AndrewSpourgeon/BMI-Calculator-Flutter',
@@ -45,7 +45,7 @@ List<ProjectInfo> data = [
       description:
           "An android app that contains all he top and useful websites belonging to different streams at a single place.",
       image:
-          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/hub.jpg?alt=media&token=f719b851-8b93-49c3-8d84-f7b476695512',
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/hhh.jpg?alt=media&token=e1ed3ff2-6882-4625-9832-57c48828a0b9',
       purl:
           'https://play.google.com/store/apps/details?id=com.andrewspourgeon.thehub',
       wurl: 'https://thehub-drew.web.app/#/',
@@ -56,7 +56,7 @@ List<ProjectInfo> data = [
       description:
           "An android app which generates a credit card according to the details given by the user",
       image:
-          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/cred.jpg?alt=media&token=278f82a6-ad20-4e09-9e7f-96b190aaa87d',
+          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/cred.jpg?alt=media&token=03a216b6-f9b5-43e6-90d5-023c7d052e07',
       purl: '',
       wurl: 'https://cred-bot-drew.web.app/',
       gurl: 'https://github.com/AndrewSpourgeon/Cred-Bot_Flutter'),
@@ -66,7 +66,7 @@ List<ProjectInfo> data = [
     description:
         "This app is an output of my challenge and a sheer skill which I have completed in 1 and a half hour by taking to complte the UI part of whatsapp as a challenge.",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/whatsUI.png?alt=media&token=7677493e-9e2e-448c-9848-dd28ccd36d57',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/PicsArt_10-09-03.30.50.png?alt=media&token=2f4bf2a5-5c9a-4fdb-b51a-15b022c4da90',
     purl: '',
     gurl: 'https://github.com/AndrewSpourgeon/Whatsapp-UI-Flutter',
     wurl: 'https://whatsapp-drew.web.app/#/',
@@ -77,7 +77,7 @@ List<ProjectInfo> data = [
     description:
         "An application that generates a fact every time the user clicks the button.Users can unleash new unkonwn facts as the title says.",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/unleash.jpg?alt=media&token=17a40059-8fc7-470d-8191-40888881c88f',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/unleash.jpg?alt=media&token=571f9e16-0e46-4531-8e04-74e41976a16d',
     purl: '',
     wurl: '',
     gurl: '',
@@ -88,7 +88,7 @@ List<ProjectInfo> data = [
     description:
         "A application that shows the latest news from different sources.",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/news.jpg?alt=media&token=48044c22-0b99-4c3f-af92-b1677633b19a',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/news.jpg?alt=media&token=6e9b980c-4ae5-4813-91d4-a47d208cad7c',
     wurl: '',
     purl: '',
     gurl: '',
@@ -99,7 +99,7 @@ List<ProjectInfo> data = [
     description:
         "A application that helps the user to keep track of their to-do list.",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/todo.jpg?alt=media&token=26c80228-0fa5-423e-8798-e490986a3219',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/todo.jpg?alt=media&token=af571469-2c7c-48c8-99d6-f3974a2f19cc',
     wurl: '',
     purl: '',
     gurl: '',
@@ -110,7 +110,7 @@ List<ProjectInfo> data = [
     description:
         "A application that shows the weather forecast of the desired location of the user.",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/weather.png?alt=media&token=217229e2-de9e-49ef-9423-a7be7df00756',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/weather.png?alt=media&token=e5ad9f6c-79c0-4a56-9c99-aa4c8d93e1ff',
     wurl: '',
     purl: '',
     gurl: '',
@@ -121,7 +121,7 @@ List<ProjectInfo> data = [
     description:
         "You can roll a dice, flip a coin, play rock paper scissors at a single place ",
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/tdr.jpg?alt=media&token=798e47f9-0c87-4429-a185-bec07f1f91f1',
+        'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/tdr.jpg?alt=media&token=a02b6ec0-10ca-4667-872d-b498c9bcd6e7',
     gurl: '',
     wurl: '',
     purl: '',
