@@ -125,8 +125,8 @@ class _PortfolioState extends State<Portfolio> {
                                 onTap: () {
                                   launch('http://andrewspourgeon.me/');
                                 },
-                                child: Image.network(
-                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/logo.png?alt=media&token=fabd42b4-ace2-4ea5-a6ee-75bdc69cac68",
+                                child: Image.asset(
+                                  "assets/preview.png",
                                   height: 25,
                                 ),
                               )
@@ -157,8 +157,8 @@ class _PortfolioState extends State<Portfolio> {
                                   launch(
                                       'https://play.google.com/store/apps/dev?id=7666823867215398669');
                                 },
-                                child: Image.network(
-                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/playstore.png?alt=media&token=36cea1a0-f137-48c8-adf2-613fc0169245",
+                                child: Image.asset(
+                                  "assets/playstore.png",
                                   height: 17,
                                 ),
                               ),
@@ -170,8 +170,8 @@ class _PortfolioState extends State<Portfolio> {
                                   launch(
                                       'https://www.linkedin.com/in/andrew-spourgeon-829458205/');
                                 },
-                                child: SvgPicture.network(
-                                  "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/linkedin.svg?alt=media&token=9cdbf338-2116-440d-8b04-277a92f8ea85",
+                                child: SvgPicture.asset(
+                                  "assets/linkedin.svg",
                                   height: 17,
                                 ),
                               ),
@@ -235,8 +235,7 @@ class _PortfolioState extends State<Portfolio> {
                       SizedBox(
                         height: 400,
                         width: 500,
-                        child: Image.network(
-                            "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/carbon.png?alt=media&token=30c7e855-684f-4193-9f70-e09c05572e59"),
+                        child: Image.asset("assets/carbon.png"),
                       ),
                       SizedBox(
                         height: 30,
@@ -503,8 +502,8 @@ class _PortfolioState extends State<Portfolio> {
                     SizedBox(
                       width: 5,
                     ),
-                    Image.network(
-                      'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/logo.png?alt=media&token=fabd42b4-ace2-4ea5-a6ee-75bdc69cac68',
+                    Image.asset(
+                      'assets/preview.png',
                       height: 25,
                     ),
                     Text('👇'),
@@ -524,8 +523,8 @@ class _PortfolioState extends State<Portfolio> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ClipOval(
-            child: Image.network(
-              "https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/whitedrew.jpg?alt=media&token=afa5d9a9-4bd7-4e00-91d2-e6de38edaeaf",
+            child: Image.asset(
+              "assets/drew.jpg",
               height: 90,
               width: 90,
               fit: BoxFit.fitWidth,
@@ -643,8 +642,8 @@ class _PortfolioState extends State<Portfolio> {
                             SizedBox(
                               width: 5,
                             ),
-                            Image.network(
-                              'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/lendi.png?alt=media&token=841f8566-80f8-4ddc-a70c-2c490ef170e1',
+                            Image.asset(
+                              'assets/lendi.png',
                               height: 25,
                             ),
                             SizedBox(
@@ -737,8 +736,8 @@ class _PortfolioState extends State<Portfolio> {
                           SizedBox(
                             width: 5,
                           ),
-                          Image.network(
-                            'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/fluttername.png?alt=media&token=74d6201b-ac1d-4fc3-a2f3-a81d630ebf33',
+                          Image.asset(
+                            'assets/flutter.png',
                             height: 22,
                           ),
                         ],
@@ -933,8 +932,8 @@ class _PortfolioState extends State<Portfolio> {
                     ),
                   ),
                   children: [
-                    Image.network(
-                      'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/web-design.png?alt=media&token=25c5f079-406a-4bc1-b660-fb4db3a21d42',
+                    Image.asset(
+                      'assets/web-design.png',
                       height: 100,
                     ),
                     Container(
@@ -959,8 +958,7 @@ class _PortfolioState extends State<Portfolio> {
                       width: 90,
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                              image: NetworkImage(
-                                  'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/ui.png?alt=media&token=cab8bba4-9ba6-4009-b0db-9edd38d20c05')),
+                              image: AssetImage('assets/ui.png')),
                           borderRadius: BorderRadius.circular(80)),
                     ),
                   ],
@@ -2166,7 +2164,7 @@ class ContactItem extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Image.network(
+            Image.asset(
               image,
               height: 150,
               width: 150,

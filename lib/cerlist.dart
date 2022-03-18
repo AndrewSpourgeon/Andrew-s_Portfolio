@@ -15,8 +15,7 @@ final cerlistt = [
     cer: SizedBox(
       height: 300,
       width: 400,
-      child: Image.network(
-          'https://firebasestorage.googleapis.com/v0/b/drew-portfolio.appspot.com/o/javacode.jpg?alt=media&token=09736454-9192-4796-b49b-cf996cdd5ffb'),
+      child: Image.network('assets/java.jpg'),
     ),
     ide: '2',
   ),
