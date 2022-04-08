@@ -15,7 +15,7 @@ final cerlistt = [
     cer: SizedBox(
       height: 300,
       width: 400,
-      child: Image.network('assets/java.jpg'),
+      child: Image.asset('assets/java.jpg'),
     ),
     ide: '2',
   ),
